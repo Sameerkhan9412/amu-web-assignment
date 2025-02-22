@@ -24,3 +24,6 @@ export const bottomNavBarLinks = [
   },
 ];
 
+export const footerLinks=[
+  "Annual Report","AMU Gazette","AMU Special Centers","Academic Programmes Committee","Samarth (SHSM) Support Cell","Campus Notices","Chemical Research Unit","Prof. M.N. Faruqui Computer Centre","CPC","Directories","Employee Services","Facilities","Fikr-O-Nazar","Green University Project","Heritage Cell","Intellectual Property Cell","Internal Complaints Committee","IQAC","Innovation Council","IT Help Desk","Jobs at AMU","Maps","Musa Dakri Museum","OSO-AMU","Purchase & Tenders","RTI","Search Profile","Tahzeeb-ul-Akhlaq","Tarana","Visitors","Website Committee","Web Mail","Women Education","Yusuff Ali Aquatics & Sports Complex","Disclaimer","Aligs Academic Enrichment Programme","Institutional Ethics Committee","Institutional Biosafety Committee","NEP Cell","Research and Development Cell","Estate Officer (Gazetted)","Anti-Ragging"
+]
