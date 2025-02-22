@@ -1,1 +1,34 @@
 @import "tailwindcss";
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .marquee-content {
+    display: flex;
+    gap: 20px;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .marquee-text {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .marquee-container:hover .marquee-content {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

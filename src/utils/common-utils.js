@@ -27,3 +27,8 @@ export const bottomNavBarLinks = [
 export const footerLinks=[
   "Annual Report","AMU Gazette","AMU Special Centers","Academic Programmes Committee","Samarth (SHSM) Support Cell","Campus Notices","Chemical Research Unit","Prof. M.N. Faruqui Computer Centre","CPC","Directories","Employee Services","Facilities","Fikr-O-Nazar","Green University Project","Heritage Cell","Intellectual Property Cell","Internal Complaints Committee","IQAC","Innovation Council","IT Help Desk","Jobs at AMU","Maps","Musa Dakri Museum","OSO-AMU","Purchase & Tenders","RTI","Search Profile","Tahzeeb-ul-Akhlaq","Tarana","Visitors","Website Committee","Web Mail","Women Education","Yusuff Ali Aquatics & Sports Complex","Disclaimer","Aligs Academic Enrichment Programme","Institutional Ethics Committee","Institutional Biosafety Committee","NEP Cell","Research and Development Cell","Estate Officer (Gazetted)","Anti-Ragging"
 ]
+
+
+export const heroSecitonImages=["https://api.amu.ac.in/storage//images/HomePageSlider/1729174440_ssday2.jpg","https://api.amu.ac.in/storage//images/HomePageSlider/1729174478_ssday1.jpg","https://api.amu.ac.in/storage//images/HomePageSlider/1729174374_ssday4.jpg","https://api.amu.ac.in/storage//images/HomePageSlider/1729174305_ssday6.jpg"]
+
+export const notifications=["List of SWAYAM Courses offered by AMU (INI) in January-2025 Semester","Postponement of GSC (scheduled to be held from 18 to 20 Feb 2025)","Postponement Notice GSC Department of Philosophy and Women's College, AMU","Admission Test Schedule for Admission to Ph.D Programme 2024-25 "]
