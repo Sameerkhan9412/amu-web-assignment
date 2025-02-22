@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="w-full text-white text-sm">
       <div className=" w-full">
         <div className="bg-[#D45552] w-full flex  items-center justify-center ">
-          <div className="w-full max-w-6xl mx-auto flex flex-col justify-center  ">
+          <div className="w-full max-w-6xl mx-auto flex gap-2 flex-col justify-center  ">
             <div className="flex items-center " >
               {topNavbarLinks.map((link, index) => (
                 <Link to={`/${link}`} className="  text-center  hover:bg-[#6e1210]  py-1 px-2 rounded-md ">
@@ -18,7 +18,7 @@ const Navbar = () => {
                 </Link>
               ))}
             </div>
-            <div className="flex item-center my-1">
+            <div className="flex item-center my-">
               <Link to="sidemap" className="mx-2 px-1">
                 Site Map
               </Link>{" "}
@@ -52,16 +52,14 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className=" bg-[#0A1A32] w-full  ">
-          <div className="max-w-6xl mx-auto"> 
+        <div className=" bg-[#0A1A32] flex gap-4  h-10  ">
         {bottomNavBarLinks.map((category, index) => (
           <div key={index} className="flex justify-evenly w-full">
             {Object.entries(category).map(([section, links]) => (
-                <button className=" py-1 w-full hover:bg-[#D45552] flex items-center justify-center cursor-pointer">{section}{section.length>0&&(<FaCaretDown/>)}</button>
+                <button className=" py-2 w-full hover:bg-[#D45552] flex items-center justify-center cursor-pointer">{section}{section.length>0&&(<FaCaretDown/>)}</button>
             ))}
           </div>
         ))}
-        </div>
       </div>
       </div>
     </div>
