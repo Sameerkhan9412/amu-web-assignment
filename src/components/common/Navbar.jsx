@@ -52,14 +52,16 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className=" bg-[#0A1A32] flex gap-4  h-10  ">
+        <div className=" bg-[#0A1A32] w-full  ">
+          <div className="max-w-6xl mx-auto"> 
         {bottomNavBarLinks.map((category, index) => (
           <div key={index} className="flex justify-evenly w-full">
             {Object.entries(category).map(([section, links]) => (
-                <button className=" py-2 w-full hover:bg-[#D45552] flex items-center justify-center cursor-pointer">{section}{section.length>0&&(<FaCaretDown/>)}</button>
+                <button className=" py-1 w-full hover:bg-[#D45552] flex items-center justify-center cursor-pointer">{section}{section.length>0&&(<FaCaretDown/>)}</button>
             ))}
           </div>
         ))}
+        </div>
       </div>
       </div>
     </div>
