@@ -7,6 +7,8 @@ import { LuNotebookPen } from "react-icons/lu";
 import { sidebarLinks } from "../utils/common-utils";
 import { GoTriangleRight } from "react-icons/go";
 import News from "../components/Home/News";
+import Grade from "../components/Home/Grade";
+import Notification from "../components/common/Notification";
 
 const Home = () => {
   return (
@@ -147,7 +149,21 @@ const Home = () => {
               Asia and Southeast Asia.
             </p>
           </div>
-          <News/>
+          <News cols={2}/>
+          <Grade/>
+          <div className=" col-span-2 mb-2">
+            <h1 className="text-center font-bold">AMU SHOWREEL</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/R5JtFKxencY?si=a_kE55JfVcrardxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div>
+        <Notification/>
+          <div className="my-4">
+            <h1 className="text-lg font-bold text-[#DD7A78]">Sports and Games</h1>
+            <img src="https://api.amu.ac.in/storage//images/editor/1634836106_riding_updated.jpg" alt="" />
+            <p className="font-bold">Sports and Games have been very distinguished feature of AMU since inception</p>
+            <button className="py-2 px-4 bg-[#6E1210] rounded-lg text-white font-bold mt-2">View All Highlights</button>
+          </div>
         </div>
       </div>
     </div>
