@@ -6,6 +6,7 @@ import { GrTest } from "react-icons/gr";
 import { LuNotebookPen } from "react-icons/lu";
 import { sidebarLinks } from "../utils/common-utils";
 import { GoTriangleRight } from "react-icons/go";
+import News from "../components/Home/News";
 
 const Home = () => {
   return (
@@ -68,7 +69,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 text-sm max-w-6xl mx-auto gap-4">
+      <div className="grid grid-cols-4 text-sm max-w-6xl mx-auto gap-4 text-sm">
         <div className="border-1 border-gray-500 px-2">
           <div className="font-bold text-lg my-2">
             Last Updated On: Feb 22, 2025
@@ -93,7 +94,7 @@ const Home = () => {
             );
           })}
         </div>
-        <div>
+        <div  className="col-span-2 grid grid-cols-2 h-fit gap-2">
           <div>
             <h1 className="font-bold py-2 px-2">THE FOUNDER</h1>
             <img
@@ -107,21 +108,6 @@ const Home = () => {
               Syed Ahmed's life.
             </p>
           </div>
-          <div>
-            <h1 className="font-bold p-2">WELCOME TO AMU</h1>
-            <img
-              src="https://api.amu.ac.in/storage//images/editor/1595420271_amu-img.png"
-              alt=""
-            />
-            <p className="my-3">
-              Aligarh Muslim University Accredited by NAAC in 'A+' grade having
-              13 Faculties viz. Agricultural Sciences, Arts, Commerce,
-              Engineering & Technology, Law etc., each comprising of several
-              Departments of Studies.
-            </p>
-          </div>
-        </div>
-        <div>
           <div>
             <h1 className="font-bold p-2">VC Message</h1>
             <img
@@ -137,6 +123,19 @@ const Home = () => {
             </p>
           </div>
           <div>
+            <h1 className="font-bold p-2">WELCOME TO AMU</h1>
+            <img
+              src="https://api.amu.ac.in/storage//images/editor/1595420271_amu-img.png"
+              alt=""
+            />
+            <p className="my-3">
+              Aligarh Muslim University Accredited by NAAC in 'A+' grade having
+              13 Faculties viz. Agricultural Sciences, Arts, Commerce,
+              Engineering & Technology, Law etc., each comprising of several
+              Departments of Studies.
+            </p>
+          </div>
+          <div>
             <h1 className="p-2 font-bold">ACADEMICS</h1>
             <img
               src="https://api.amu.ac.in/storage//images/editor/1595420331_academic-img.png"
@@ -148,8 +147,8 @@ const Home = () => {
               Asia and Southeast Asia.
             </p>
           </div>
+          <News/>
         </div>
-        <div></div>
       </div>
     </div>
   );
